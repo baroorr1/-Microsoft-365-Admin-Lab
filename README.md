@@ -49,11 +49,7 @@ This lab simulates core admin functions in a Microsoft 365 environment and is id
 
 ---
 
-## 👨‍💻 Author
 
-**Rithesh Reddy Baroor**  
-[GitHub Profile](https://github.com/baroorr1)  
-[LinkedIn Profile](https://www.linkedin.com) *(optional)*
 
 ---
 
