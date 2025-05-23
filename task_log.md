@@ -1,61 +1,45 @@
-# Task Log – Microsoft 365 Admin Lab
+# 🛠️ Microsoft 365 Admin Center Simulation Lab
 
-This file logs all the core tasks performed during the Microsoft 365 Admin Center simulation.
-
----
-
-## 🧑‍💼 Task: Add New Users
-
-- Added three users:
-  - Rithesh Baroor (rithesh@labdomain.onmicrosoft.com)
-  - John Doe (john@labdomain.onmicrosoft.com)
-  - Alice Smith (alice@labdomain.onmicrosoft.com)
-- Default password set with "Require password change on next sign-in" enabled.
+This repository contains simulated real-world tasks for Microsoft 365 Admins using the Microsoft 365 Admin Center and Azure AD. It documents key administrative functions like user management, license assignment, MFA setup, and group creation.
 
 ---
 
-## 🎫 Task: Assign Microsoft 365 E5 Licenses
+## ✅ Tasks Covered
 
-- Assigned Microsoft 365 E5 Developer licenses to all three users.
-- Verified services like Exchange, Teams, and OneDrive were enabled.
+1. **User Creation**  
+   ![User Creation](screenshots/user_creation.png)
 
----
+2. **License Assignment**  
+   ![License Assignment](screenshots/license_assignment.png)
 
-## 🔐 Task: Reset Password
+3. **Password Reset**  
+   ![Password Reset](screenshots/password_reset.png)
 
-- Reset Alice Smith’s password via Admin Center → Users → Reset Password.
-- Sent temporary password manually for test login.
+4. **Password Policy Configuration**  
+   ![Password Policy](screenshots/password_policy.png)
 
----
+5. **Multi-Factor Authentication Setup**  
+   ![MFA Setup](screenshots/MFA_setup.png)
 
-## 🔄 Task: Set Password Expiration Policy
+6. **Security Group Creation**  
+   ![Group Creation](screenshots/group_creation.png)
 
-- Navigated to Azure AD → Password Reset.
-- Configured password expiration to 60 days with 14-day warning.
-
----
-
-## 🔑 Task: Enable Multi-Factor Authentication (MFA)
-
-- Enabled MFA for John Doe via Azure Portal → Users → Multi-Factor Authentication.
-- Tested login on InPrivate window – verified with phone prompt.
-
----
-
-## 👥 Task: Create Security Group
-
-- Created group: “Helpdesk Team”
-- Added Rithesh and John to the group
-- Group type: Security; membership type: Assigned
+7. **Login Test with MFA**  
+   ![User Login Test](screenshots/user_login_test1.png)
+   **screenshot2** 
+    ![User Login Test](screenshots/user_login_test2.png)
+   **Sceenshot3** 
+    ![User Login Test](screenshots/user_login_test3.png)
 
 ---
 
-## 🔐 Task: Test Login with MFA
+## 👤 Users Created
 
-- Logged in as John Doe
-- Verified: password change → MFA phone verification → access granted
+- **Rithesh Baroor** — `RitheshBaroor@baroor292.onmicrosoft.com`  
+- **Rithika Baroor** — `baroorr1@baroor292.onmicrosoft.com`  
+- **Tanuja Reddy Varkuti** — `Varkuti05@baroor292.onmicrosoft.com`
 
 ---
 
-All tasks were executed within a Microsoft 365 Developer E5 environment using Admin Center and Azure AD.
+## 📂 Folder Structure
 
